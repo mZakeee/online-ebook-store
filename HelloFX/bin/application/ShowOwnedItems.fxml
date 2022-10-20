@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <content>
+      <GridPane prefHeight="567.0" prefWidth="573.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="86.20001220703125" minWidth="10.0" prefWidth="60.400028228759766" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="134.400048828125" minWidth="0.0" prefWidth="46.400048828124994" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="392.0" minWidth="10.0" prefWidth="345.599951171875" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#rockets" text="Read" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ImageView fitHeight="98.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/book%20covers/rockets.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="95.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../../../../Desktop/book%20covers/birdman.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="89.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <image>
+                  <Image url="@../../../../Desktop/book%20covers/macbeth.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#birdman" text="Read" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#macbeth" text="Read" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ImageView fitHeight="100.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               <image>
+                  <Image url="@../../../../Desktop/book%20covers/stranger.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#aStranger" text="Read" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ImageView fitHeight="120.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+               <image>
+                  <Image url="@../../../../Desktop/book%20covers/tokilla.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#toKillAMockingbird" text="Read" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Rockets and People: Much has been written in the West on the history of the Soviet space program but few Westerners have read direct first-hand accounts of the men and women who were behind the many Russian accomplishments in exploring space. The memoirs of Academician Boris Chertok, translated from the original Russian, fills that gap." wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label text="Birdman: The premise is simple: a newly-appointed detective finds himself in over his head, chasing down a killer with a penchant for not just kidnapping and murdering young women, but mutilating them, too. What Hayder does with this premise is far from ordinary." wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label text="Macbeth: Three witches tell the Scottish general Macbeth that he will be King of Scotland. Encouraged by his wife, Macbeth kills the king, becomes the new king, and kills more people out of paranoia. Civil war erupts to overthrow Macbeth, resulting in more death." wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label text="A Stranger in the Mirror: The novel tells the life story of two fictitious Hollywood celebrities - Toby Temple and Jill Castle (roman à clef on Sheldon's acquaintances Groucho Marx and Erin Fleming) and portrays the emotional extremes of success and failure and how people inevitably become victims of time." wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label text="To Kill A Mockingbird: Set in the small Southern town of Maycomb, Alabama, during the Depression, To Kill a Mockingbird follows three years in the life of 8-year-old Scout Finch, her brother, Jem, and their father, Atticus--three years punctuated by the arrest and eventual trial of a young black man accused of raping a white woman." wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#backButton" text="Back" />
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>
